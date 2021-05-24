@@ -4,4 +4,4 @@
 4. Contribute and open pull request
 5. Always mention what you have done in comment then submit
 
-Then the maintainer/owner (in this case me) will check it and merge it to the main branch if everything is fine.
+Then the maintainer/owner (in this case me) will check it and merge it to the main branch if everything is fine..
