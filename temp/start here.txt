@@ -1,0 +1,7 @@
+1. Fork the repo
+2. Create a branch of your name
+3. Make the required changes, commit them to your branch
+4. Contribute and open pull request
+5. Always mention what you have done in comment then submit
+
+Then the maintainer/owner (in this case me) will check it and merge it to the main branch if everything is fine.
