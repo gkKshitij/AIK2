@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> -->
+    
+    <title>SignIn</title>
+    <style type="text/css">
+        .container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(212deg, rgba(131, 96, 195, 1) 0%, rgba(46, 191, 145, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-div h1{
+    color: white;
+    font-family: Texta-Bold;
+    font-size: 80px;
+}
+.welcome-div{
+    margin: 0 auto;
+}
+
+.form-div{
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 15px;
+}
+
+/* Login Title */
+.logintitle h1{
+    text-align: center;
+    font-family: Texta-Bold;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+#loginhr {
+    position: relative;
+    padding-top: 0px;
+    margin-top: 0px;
+    background-color: rgba(131, 96, 195, 1);
+    height: 2px;
+    border-radius: 25px;
+    border: none;
+    width: 80px;
+}
+
+/* Labels and Inputs */
+
+.labels-inputs label{
+    font-family: Texta-Bold;
+    font-size: 23px;
+    margin-left: 12px;
+}
+
+.input-box{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box{
+    font-family: Texta-Regular;
+    font-size: 18px;
+    margin-right: 12px;
+    border: 0.5px solid rgba(46, 191, 145, 1);
+    box-shadow: 0 0 5px rgba(46, 191, 145, 1);
+    border-radius: 10px;
+    width: 250px;
+    height: 50px;
+    
+}
+
+.form-div p{
+    text-align: center;
+    font-family: Texta-Bold;
+    font-size: 20px;
+}
+
+.signin-button{
+    text-align: center;
+}
+
+.signin-button button{
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+    border-style: none;
+    font-family: Texta-Bold;
+    font-size: 25px;
+    box-shadow: 0 0 8px rgba(46, 191, 145, 1);
+    background-color: rgba(46, 191, 145);
+    color: white;
+}
+
+#sign-in-up{
+    width: 350px;
+    border-style: solid;
+    color: #D1D1D1;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.signup-button {
+    text-align: center;
+}
+
+.signup-button button {
+    width: 300px;
+    height: 60px;
+    border-radius: 25px;
+    border-style: none;
+    font-family: Texta-Bold;
+    font-size: 25px;
+    box-shadow: 0 0 8px rgba(131, 96, 195, 1);
+    background-color: rgba(131, 96, 195, 1);
+    color: white;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome-div">
+            <h1>Welcome, back!</h1>
+        </div>
+
+        <div class="form-div">
+            <form onsubmit="">
+                <div class="logintitle">
+                    <h1>Login</h1>
+                    <hr id="loginhr">
+                </div>
+
+                <div class="labels-inputs">
+                    <div class="input-box">
+                        
+                        <label>Email</label>
+                        <input class="box" type="email" placeholder=" ✉️Enter Email Id">
+                        
+                    </div>
+
+                    <div class="input-box">
+                        <label>Password</label>
+                        <input class="box" type="password" placeholder=" 🔒Enter Password">
+                    </div>
+                </div>
+
+                <div><a><p>Forgot Password?</p></a></div>
+
+                <div class="signin-button">
+                    <button >Sign In</button>
+                </div>
+
+                <hr id="sign-in-up" >
+
+                <div class="signup-button">
+                    <a href="/signup.html"><button id="createbutton">Create an Account</button></a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+<script type="text/javascript">
+    document.getElementById("createbutton").addEventListener("click", function (event){
+    event.preventDefault();
+    window.location.href = "http://localhost:5000/signup";
+});
+</script>
+</body>
+</html>
