@@ -1,0 +1,125 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(212deg, rgba(131, 96, 195, 1) 0%, rgba(46, 191, 145, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-div h1 {
+  color: white;
+  font-family: Texta-Bold;
+  font-size: 80px;
+}
+
+.welcome-div {
+  margin: 0 auto;
+}
+
+.form-div {
+  margin: 0 auto;
+  width: 400px;
+  height: 450px;
+  border-radius: 25px;
+  background-color: white;
+  padding: 15px;
+}
+
+/* Login Title */
+.logintitle h1 {
+  text-align: center;
+  font-family: Texta-Bold;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 45px;
+}
+
+#loginhr {
+  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: rgba(131, 96, 195, 1);
+  height: 2px;
+  border-radius: 25px;
+  border: none;
+  width: 80px;
+}
+
+/* Labels and Inputs */
+
+.labels-inputs label {
+  font-family: Texta-Bold;
+  font-size: 23px;
+  margin-left: 12px;
+}
+
+.input-box {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.box {
+  font-family: Texta-Regular;
+  font-size: 18px;
+  margin-right: 12px;
+  border: 0.5px solid rgba(46, 191, 145, 1);
+  box-shadow: 0 0 5px rgba(46, 191, 145, 1);
+  border-radius: 10px;
+  width: 250px;
+  height: 50px;
+
+}
+
+.form-div p {
+  text-align: center;
+  font-family: Texta-Bold;
+  font-size: 20px;
+}
+
+.signin-button {
+  text-align: center;
+}
+
+.signin-button button {
+  width: 300px;
+  height: 60px;
+  border-radius: 25px;
+  border-style: none;
+  font-family: Texta-Bold;
+  font-size: 25px;
+  box-shadow: 0 0 8px rgba(46, 191, 145, 1);
+  background-color: rgba(46, 191, 145);
+  color: white;
+}
+
+#sign-in-up {
+  width: 350px;
+  border-style: solid;
+  color: #D1D1D1;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.signup-button {
+  text-align: center;
+}
+
+.signup-button button {
+  width: 300px;
+  height: 60px;
+  border-radius: 25px;
+  border-style: none;
+  font-family: Texta-Bold;
+  font-size: 25px;
+  box-shadow: 0 0 8px rgba(131, 96, 195, 1);
+  background-color: rgba(131, 96, 195, 1);
+  color: white;
+}
