@@ -1,0 +1,189 @@
+html{
+    background-image: url(../images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+div.container{
+    /* container */
+
+padding-top: 500px;
+position: absolute;
+width: 73.33rem;
+height:26rem;
+margin-bottom: 10rem;
+padding-top: 5rem;
+
+left: 3.33rem;
+top: 6.67rem;
+
+background: #FFFFFF;
+border-bottom: 10rem;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38);
+border-radius: 25px;
+
+}
+.footfallimg{
+    /* Rectangle 52 */
+
+
+position: absolute;
+width: 9rem;
+height: 6.67rem;
+left: 62.44rem;
+top: 19.34rem;
+align-items: center;
+
+}
+
+.impressionsimg{
+    /* Rectangle 52 */
+
+
+position: absolute;
+width: 9rem;
+height: 6.67rem;
+left: 62.44rem;
+top: 10.67rem;
+align-items: center;
+
+}
+
+.devicesimg{
+    /* Rectangle 52 */
+
+
+position: absolute;
+width: 9rem;
+height: 6.67rem;
+left: 62.44rem;
+top: 2rem;
+align-items: center;
+
+}
+
+.footpie{
+    position: absolute;
+    width: 23.67rem; 
+    height: 13.56rem;
+    left:2rem;
+    top: 1rem;
+    
+}
+
+.timepie{
+    position: absolute;
+    width: 23.67rem; 
+    height: 13.56rem;
+    left: 28.67rem;
+    top: 1rem;
+}
+
+.graph{
+    /* Chart */
+
+
+position: absolute;
+width: 35rem;
+height: 15rem;
+left: 5rem;
+top: 15rem;
+}
+
+.head{
+    /* Total Footfall */
+
+
+position: absolute;
+width: 100px;
+height: 20px;
+left: 1182px;
+top: 488px;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #8E8E8E;
+
+}
+
+ul.nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+
+  }
+li.nav_name{
+    /* hello, Shivani! */
+
+
+position: absolute;
+width: 10.67rem;
+height: 2.056rem;
+left: 8.11rem;
+top: 2.44rem;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 1.67rem;
+line-height: 2.056rem;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02rem;
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+li.nav_user{
+/* person icon */
+
+
+position: absolute;
+width: 2.81rem;
+height: 2.81rem;
+left: 4.22rem;
+top: 2rem;
+
+
+}
+
+.nav_settings{
+    /* Alarm */
+
+
+position: absolute;
+width: 1.94ren;
+height: 1.94rem;
+left: 67.056rem;
+top: 2.67rem;
+}
+
+li.nav_bell{
+      /* Alarm */
+
+
+position: absolute;
+width: 1.94ren;
+height: 1.94rem;
+left: 73.83rem;
+top: 2.67rem;
+
+}
+
+
+
+
+
