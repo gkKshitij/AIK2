@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const routesUrls = require('./routes/Routes')
+const registerURL = require('./routes/Route')
 const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config()
@@ -22,4 +22,4 @@ mongoose.connect(process.env.DATABASE_ACCESS,{
 } ,() => console.log("database connected"))
 
 
-app.use('/app', routesUrls)
+app.use('/app', registerURL)

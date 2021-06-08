@@ -23,7 +23,7 @@ const signUpTemplate = new mongoose.Schema({
     password: {
         type: String,
         requried: true,
-        minlength: 5
+        minlength: 6
     },
 
     date: {
