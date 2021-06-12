@@ -1,0 +1,155 @@
+* {
+    font-family: 'Barlow', sans-serif; 
+    width: auto;
+    height: 100%;
+}
+body{
+    background-image: url('images/background.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+ul.nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+li.nav_name{
+    /* hello, Shivani! */
+
+
+position: absolute;
+width: 10.67rem;
+height: 2.056rem;
+left: 8.11rem;
+top: 2.44rem;
+
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 1.67rem;
+line-height: 2.056rem;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02rem;
+
+color: #000000;
+
+mix-blend-mode: normal;
+}
+
+li.nav_user{
+/* person icon */
+
+
+position: absolute;
+width: 2.81rem;
+height: 2.81rem;
+left: 4.22rem;
+top: 2rem;
+
+
+}
+
+.nav_settings{
+    /* Alarm */
+
+
+position: absolute;
+width: 1.94rem;
+height: 1.94rem;
+left: 67.056rem;
+top: 2.67rem;
+}
+
+li.nav_bell{
+      /* Alarm */
+
+
+position: absolute;
+width: 1.94rem;
+height: 1.94rem;
+left: 73.83rem;
+top: 2.67rem;
+
+}
+
+.body{
+   
+    position: absolute;
+    width: 73.33rem;
+    height: 38.44rem;
+    left: 3.33rem;
+    top: 8rem;
+    
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+    background: #D8E6FB;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.38);
+    border-radius: 25px;
+    padding-bottom: auto;
+    padding-right: auto;
+}
+tr{
+    position: absolute;
+width: 1049px;
+height: 37px;
+left: 86px;
+top: 39px;
+}
+.links{
+    /* Current Devices */
+
+
+position: absolute;
+width: 200px;
+height: 37px;
+left: 0rem;
+top: 0rem;
+text-align: center;
+font-family: Barlow;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 122.5%;
+/* identical to box height, or 37px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.02rem;
+
+color: #000000;
+}
+
+.add{
+    
+    position: absolute;
+    width: 11.67rem;
+    height: 3.33rem;
+    left: 6.67rem;
+    top: 902px;
+}
+
+.edit{
+    position: absolute;
+    width: 11.67rem;
+    height: 3.33rem;
+    left: 61.67rem;
+    top: 902px;
+    
+}
+.acc_ctrl{
+    
+    padding-right: auto;
+}
+
+button{
+    border: 0px;
+    width: 11.67rem;
+    height: 3.33rem;
+    background: #FFFF;
+    border-radius: 35px;
+}
